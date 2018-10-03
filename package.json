@@ -1,0 +1,21 @@
+{
+  "name": "resuggest",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "author": "Raibima Putra <raibima.putra@traveloka.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel index.js --out-dir lib"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.5.2"
+  }
+}
